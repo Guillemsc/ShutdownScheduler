@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:ShutdownScheduler.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="150"
+             x:Class="ShutdownScheduler.Views.ScheduleShutdownView"
+             x:DataType="viewModels:ScheduleShutdownViewModel">
+
+    <Border BorderThickness="2"
+            CornerRadius="3"
+            Padding="4">
+        <StackPanel>
+            <Label Content="Hours"/>
+            <NumericUpDown Name="HoursNumericUpDown" Value="1" Increment="1"/>
+
+            <Label Content="Minutes"/>
+            <NumericUpDown Name="MinutesNumericUpDown" Value="0" Increment="1"/>
+            
+            <Button Content="Set" Click="OnSetClicked"></Button>
+        </StackPanel>
+    </Border>
+</UserControl>

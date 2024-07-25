@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutdownScheduler", "ShutdownScheduler\ShutdownScheduler\ShutdownScheduler.csproj", "{F8B700C5-4A98-4E28-B059-37FB8367178C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShutdownScheduler.Desktop", "ShutdownScheduler\ShutdownScheduler.Desktop\ShutdownScheduler.Desktop.csproj", "{689552CA-DC50-4497-A648-3D338BB393B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B700C5-4A98-4E28-B059-37FB8367178C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B700C5-4A98-4E28-B059-37FB8367178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B700C5-4A98-4E28-B059-37FB8367178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B700C5-4A98-4E28-B059-37FB8367178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689552CA-DC50-4497-A648-3D338BB393B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689552CA-DC50-4497-A648-3D338BB393B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689552CA-DC50-4497-A648-3D338BB393B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689552CA-DC50-4497-A648-3D338BB393B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
